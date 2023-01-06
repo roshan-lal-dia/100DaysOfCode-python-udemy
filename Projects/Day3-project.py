@@ -59,7 +59,7 @@ if direction != "left":
 else:
     lake = input("There is a lake between you and a island, want to Swim or Wait for a Boat:\n")
     lake = lake.lower()
-    if lake == "swim":
+    if lake != "boat":
         print("You,re eaten by Piranhas, Game Over")
     else:
         door = input("You have reached the island, There are three doors in island\n Which door you want to open?\n Red Yellow Blue:\n")
